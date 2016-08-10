@@ -1,0 +1,24 @@
+{
+  "name": "kurstester",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thaestrup/NKKursTester.git"
+  },
+  "author": "Thomas Hæstrup",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thaestrup/NKKursTester/issues"
+  },
+  "homepage": "https://github.com/thaestrup/NKKursTester#readme",
+  "devDependencies": {
+    "eslint-config-angular": "^0.5.0",
+    "gript": "0.0.53",
+    "gulp": "^3.9.1"
+  }
+}

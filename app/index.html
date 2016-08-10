@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" data-framework="typescript" ng-app="NKKursLister">
+<head>
+    <meta charset="UTF-8">
+    <title>GRIPT test app for testing directive that renderes Nykredit bond rates</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css styles/main.css -->
+    <!-- inject:css -->
+
+    <!-- endinject -->
+    <!-- endbuild -->
+
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
+    <!-- For ng-cloak to work without flickering, this style must be loaded early -->
+    <style>
+        [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak { display: none !important; }
+    </style>
+</head>
+
+<body>
+    <nk-kursliste fondskode="0950459"></nk-kursliste>
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="../bower_components/moment/moment.js"></script>
+    <script src="../bower_components/Chart.js/dist/Chart.js"></script>
+    <script src="../bower_components/angular-chart.js/dist/angular-chart.js"></script>
+    <script src="../bower_components/nkkurslister/app/NKKursListerModule.js"></script>
+    <script src="../bower_components/nkkurslister/app/kursservice.js"></script>
+    <script src="../bower_components/nkkurslister/app/kurshist.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:js scripts/main.js -->
+    <!-- inject:js -->
+    <script src="../target/tmp/js/modernizr.js"></script>
+    <!-- endinject -->
+    <!-- inject:partials -->
+    <!-- endinject -->
+    <!-- endbuild -->
+</body>
+</html>
